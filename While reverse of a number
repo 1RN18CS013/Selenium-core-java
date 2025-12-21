@@ -1,0 +1,21 @@
+package exprogram;
+import java.util.*;
+import java.util.Scanner;
+import java.util.io.*;
+
+class reversenumber {
+    public static void main(String[] args) {
+        
+        int i=0,rev=0;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number to be reversed");
+        int n=sc.nextInt();
+        while(n>=0){
+            rem=n%10;
+            rev=rev*10+rem;
+            n=n/10;
+        }
+        System.out.println("Reverse of a number is: " +rev);
+     
+    }
+}
