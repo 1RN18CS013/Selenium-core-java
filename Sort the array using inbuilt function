@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.util.Arrays;
+public class sort {
+    public static void main(String[] args) {
+        int n,i;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number of elements in an array");
+        n=sc.nextInt();
+        int a[]=new int[n];
+        System.out.println("Enter the array elements");
+        for(i=0;i<n;i++)
+            a[i]=sc.nextInt();
+        Arrays.sort(a);
+        System.out.println("Sorted array is");
+        System.out.println(Arrays.toString(a));
+        sc.close();
+        
+    }
+}
