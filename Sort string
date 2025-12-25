@@ -1,0 +1,20 @@
+import java.util.Scanner;
+import java.util.Arrays;
+public class stringSort {
+    public static void main(String[] args) {
+        int n,i;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the length of the string");
+        n=sc.nextInt();
+         sc.nextLine();
+        String a[]=new String[n];
+        System.out.println("Enter the string");
+        for(i=0;i<a.length;i++)
+            a[i]=sc.nextLine();
+        Arrays.sort(a);
+        System.out.println("Sorted string is");
+        System.out.println(Arrays.toString(a));
+        sc.close();
+        
+    }
+}
