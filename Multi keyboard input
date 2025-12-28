@@ -1,0 +1,26 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+import java.util.Scanner;
+public class Mutltikeyboardinput {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+      /* System.out.println("Enter the first number");
+       int n1=sc.nextInt();
+       System.out.println("Enter the Second number");
+       int n2=sc.nextInt();
+       int res=n1+n2;
+       System.out.println("sum of two nos: "+res);*/
+       System.out.println("Enter the name");
+       String s=sc.next();
+       System.out.println("My name is: "+s);
+       System.out.println("Enter the age");
+       int age=sc.nextInt();
+       System.out.println("Age is: "+age);
+       System.out.println("Enter the unknown value");
+       Object o=sc.next();
+       System.out.println("Unknown value is: "+o);
+       
+       
+    }
+}
