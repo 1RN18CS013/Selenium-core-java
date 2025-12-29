@@ -1,0 +1,28 @@
+
+import java.util.Scanner;
+public class missingele {
+    public static void main(String[] args) {
+        int xor1=0,xor2=0,n,i;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the no of elements");
+        n=sc.nextInt();
+        int a[]=new int[n-1];
+        System.out.println("Enter the array elements");
+        for(i=0;i<n-1;i++)
+            a[i]=sc.nextInt();
+        for(i=0;i<n-1;i++)
+        {
+            xor1^=a[i];
+        }
+        for(i=1;i<=n;i++)
+        {
+            xor2^=i;
+        }
+        System.out.println("missing number from the array is: "+ (xor1^xor2));
+        sc.close();
+        
+        
+        
+        
+    }
+}
