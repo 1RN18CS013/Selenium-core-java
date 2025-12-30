@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Largestnumarray{
+    public static void main(String[] args) {
+        int i,n,large,j;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number of elements in a array");
+        n=sc.nextInt();
+        int a[]=new int[n];
+        System.out.println("Enter the array elements");
+        for(i=0;i<n;i++)
+            a[i]=sc.nextInt();
+        large=a[0];
+        for(i=1;i<n;i++){
+            
+           
+                if(a[i]>large)
+                    large=a[i];
+            
+        }
+        System.out.println("Largest element in an array is:"+ large);
+    }
+    
+}
