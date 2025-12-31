@@ -1,0 +1,47 @@
+import java.util.Scanner;
+class stringreverse {
+  
+    public static void main(String[] args) {
+          //Approach 1
+     /*  int i;
+       String rev="";
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter the string");
+       String s=sc.next();
+       for(i=s.length()-1;i>=0;i--)
+       {
+           rev=rev+s.charAt(i);
+       }
+       System.out.println("Reversed string is: "+rev);
+       */
+      /* int i;
+       String rev="";
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter the string");
+       String s=sc.next();
+       char a[]=s.toCharArray();
+       for(i=a.length-1;i>=0;i--)
+       {
+           rev=rev+a[i];
+       }
+       System.out.println("Reverse of a string is: "+rev);
+       */
+       //Approach 3
+      /* Scanner sc=new Scanner(System.in);
+       System.out.println("Enter the string");
+       StringBuffer s=new StringBuffer(sc.next());
+       System.out.println("Reverse of a string is:" +s.reverse());
+       */
+       //Approach 4
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter the string");
+       StringBuilder s=new StringBuilder(sc.next());
+       System.out.println("Reverse of a string is:" +s.reverse());
+       
+    
+       
+       
+       
+   
+    }
+}
