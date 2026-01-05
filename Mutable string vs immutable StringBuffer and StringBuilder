@@ -1,0 +1,18 @@
+
+public class Mutablevsimmutable{
+    public static void main(String[] args) {
+        //mutable string
+      /* String s="Welcome";
+       s.concat("to java");
+       System.out.println(s);*/
+       //immutable stringBuffer
+      /* StringBuffer s=new StringBuffer("Welcome");
+       s.append("to java");
+       System.out.println(s);*/
+       //String builder immutable
+       StringBuilder s= new StringBuilder("Welcome");
+       s.append(" to java");
+       System.out.println(s);
+       
+    }
+}
