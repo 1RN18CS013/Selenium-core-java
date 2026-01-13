@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class removespaces {
+    public static void main(String[] args) {
+       String s;
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter the string");
+       s=sc.nextLine();
+       String replace=s.replace(" ","");
+       System.out.println(replace);
+    }
+}
