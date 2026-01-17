@@ -1,0 +1,37 @@
+public class Employee {
+    //variables
+    int eid;
+    String name;
+    String job;
+    int sal;
+ 
+    //methods
+   void display(){
+        System.out.println(eid);
+        System.out.println(name);
+        System.out.println(job);
+        System.out.println(sal);
+        
+    }
+    public static void main(String[] args){
+        Employee emp1=new Employee();
+        Employee emp2=new Employee();
+        Employee emp3=new Employee();
+        Employee emp4=new Employee();
+        emp1.eid=101;
+        emp1.name="Ananya";
+        emp1.job="QA";
+        emp1.sal=7000000;
+        emp1.display();
+        emp2.eid=102;
+        emp2.name="Tanisha";
+        emp2.job="Dev";
+        emp2.sal=8000000;
+        emp2.display();
+       
+        
+        
+    }
+    
+    
+}
